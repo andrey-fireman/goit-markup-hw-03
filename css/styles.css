@@ -9,15 +9,22 @@
     --button-filtre-color: #E7E9FC;
 }
 
-*, 
-*::after, 
-*::before {
-    box-sizing: border-box;
+p,
+h1,
+h2,
+h3,
+h4,
+h5{
+    margin: 0;
 }
+
+ul{
+    margin: 0;
+}
+
 body{
     font-family: 'Roboto','Golos Text', sans-serif;
     color: var(--title-color);
-    width: 1440px;
 }
 ul {list-style: none;}
 a {text-decoration: none;}
@@ -28,20 +35,22 @@ a {text-decoration: none;}
     width: 1158px;
     background-color: #b6b7c5;  
     margin-bottom: 0;  
-    
+    outline: 1px solid rgb(5, 5, 5);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.div{
+    display: flex;
+    flex-direction: row;
 }
 
 .header{
-    width: 1128px;
-
+    flex-direction: row;
 }
 
-.navigation {
-    margin: 0;
-}
-
-.address{
-    margin: 0;
+.navigation{
+    display: flex;
 }
 
 .link-page{
@@ -53,10 +62,12 @@ a {text-decoration: none;}
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
 }
 
 .list-page{
-    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .link-icon{
@@ -76,6 +87,7 @@ a {text-decoration: none;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
 }
 
 .page:hover{
@@ -86,9 +98,6 @@ a {text-decoration: none;}
    color: var(--brand-color);
 }
 
-.link-address{
-    margin: 0;
-}
 
 .address{
     color: var(--address-color);
@@ -96,6 +105,10 @@ a {text-decoration: none;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.header-container .link-address{
+    display: flex;
 }
 
 .address:hover{
@@ -119,6 +132,7 @@ a {text-decoration: none;}
     text-align: center;
     letter-spacing: 0.02em;
     margin: 0;
+    margin-bottom: 48px;
 }
 
 .button{
@@ -135,6 +149,7 @@ a {text-decoration: none;}
     border-radius: 4px;
     border: none;
     padding: 16px 32px;
+    margin: 0 auto;
 }
 
 .button:hover{
@@ -146,7 +161,7 @@ a {text-decoration: none;}
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 0px;
+    margin-top: 0;
     padding-top: 8px;
 }
 
@@ -163,7 +178,7 @@ a {text-decoration: none;}
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
+
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,49 +16,56 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <div class="container">
-      <header class="header">
-        <nav class="navigation">
-          <a href="./index.html" class="link-page"
-            ><span class="link-icon">Web</span>Studio</a
-          >
-          <ul class="list-page">
-            <li><a href="./index.html" class="page">Studio</a></li>
-            <li><a href="./portfolio.html" class="page">Portfolio</a></li>
-            <li><a href="" class="page">Contacts</a></li>
-          </ul>
-        </nav>
-        <address class="address">
-          <ul class="link-address">
-            <li>
-              <a href="mailto:info@devstudio.com" class="address"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+110001111111" class="address"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </header>
-    </div>
-    <main>
+    <header class="header">
       <div class="container">
-        <section class="hero">
+        <div class="div">
+          <nav class="navigation">
+            <a href="./index.html" class="link-page"
+              ><span class="link-icon">Web</span>Studio</a
+            >
+            <ul class="list-page">
+              <li><a href="./index.html" class="page">Studio</a></li>
+              <li><a href="./portfolio.html" class="page">Portfolio</a></li>
+              <li><a href="" class="page">Contacts</a></li>
+            </ul>
+          </nav>
+
+          <address class="address">
+            <div class="header-container">
+              <ul class="link-address">
+                <li>
+                  <a href="mailto:info@devstudio.com" class="address"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+110001111111" class="address"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </address>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="container hero">
           <h1 class="hero-section">
             Effective Solutions <br />
             for Your Business
           </h1>
           <button class="button" type="button">Order Service</button>
-        </section>
-      </div>
-      <div class="container">
-        <section>
+        </div>
+      </section>
+      <section>
+        <div class="container">
           <h2 hidden>features</h2>
           <ul class="list-features">
             <li>
@@ -94,10 +101,10 @@
               </p>
             </li>
           </ul>
-        </section>
-      </div>
-      <div class="container">
-        <section>
+        </div>
+      </section>
+      <section>
+        <div class="container">
           <h2 class="title-item">What are we doing</h2>
           <ul>
             <li>
@@ -125,10 +132,10 @@
               />
             </li>
           </ul>
-        </section>
-      </div>
-      <div class="container">
-        <section class="section-team">
+        </div>
+      </section>
+      <section class="">
+        <div class="container section-team">
           <h2 class="subject">Our Team</h2>
           <ul>
             <li class="list-team">
@@ -172,11 +179,11 @@
               <p class="text">UI Designer</p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
-    <div>
-      <footer class="footer">
+    <footer>
+      <div class="container footer">
         <a class="link-footer-page" href="./index.html"
           ><span class="link-footer-icon">Web</span>Studio</a
         >
@@ -185,7 +192,7 @@
           sales for your business with digital <br />
           marketing & growth solutions.
         </p>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
