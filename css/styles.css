@@ -346,9 +346,10 @@ a {text-decoration: none;}
 
 
 
-.header-portfolio{
-    padding-top: 24px; 
-    padding-bottom: 24px;
+.portfolio{
+    border-bottom: 1px solid #E7E9FC;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .link{
