@@ -408,9 +408,7 @@ a {text-decoration: none;}
     color: var(--brand-color);
 }
 
-.section-button{
 
-}
 
 .list-button{
     display: flex;
@@ -463,6 +461,11 @@ a {text-decoration: none;}
     justify-content: space-between;
 }
 
+.div{
+   
+    
+}
+
 .section{
     background: var(--heading-color);
     border: 1px solid var(--button-filtre-color);
@@ -477,8 +480,10 @@ a {text-decoration: none;}
     margin-left: 0;
 }
 
-
-
+ 
+img{
+    border: none;
+}
 
 .title-filtre{
     font-size: 20px;
@@ -486,6 +491,7 @@ a {text-decoration: none;}
     letter-spacing: 0.02em;
     padding-top: 32px;
     padding-bottom: 8px;
+    padding-left: 16px;
 
 }
 
@@ -493,6 +499,8 @@ a {text-decoration: none;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-left: 16px;
+    padding-bottom: 32px;
 }
 
 .footer-portfolio{
