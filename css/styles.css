@@ -51,7 +51,7 @@ a {text-decoration: none;}
 }
 
 .section{
-    padding: 128px 0;
+    padding: 120px 0;
 }
 
 .navigation {
@@ -159,7 +159,6 @@ a {text-decoration: none;}
     text-align: center;
     letter-spacing: 0.02em;
     margin-bottom: 48px;
-
 }
 
 .button{
@@ -245,8 +244,6 @@ a {text-decoration: none;}
 
 .section-team{
     background: var(--button-background);
-
-    margin: 0 auto;
 }
 
 .subject{
@@ -296,12 +293,8 @@ a {text-decoration: none;}
 .footer{
     background-color: var(--title-color);
     padding: 100px 0;
-    margin: 0 auto;
 }
 
-.footer-studio{
-
-}
 
 .text-footer{
     color: var(--heading-color);
@@ -350,7 +343,6 @@ a {text-decoration: none;}
 
 .portfolio{
     border-bottom: 1px solid #E7E9FC;
-    margin: 0 auto;
 }
 
 .link{
@@ -471,15 +463,12 @@ a {text-decoration: none;}
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
-
 }
 
 .text-filtre{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
 }
 
 .footer-portfolio{
