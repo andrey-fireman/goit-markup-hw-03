@@ -149,7 +149,6 @@ a {text-decoration: none;}
 
 .hero{
     background: var(--title-color);
-    margin: 0 auto;
     padding: 188px 0;
 }
 
@@ -159,7 +158,6 @@ a {text-decoration: none;}
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    margin: 0 auto;
     margin-bottom: 48px;
 
 }
@@ -322,7 +320,7 @@ a {text-decoration: none;}
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-bottom: 17.5px;
+    margin-bottom: 16px;
 }
 
 .link-footer-icon{
@@ -497,7 +495,6 @@ a {text-decoration: none;}
 }
 
 .footer-section{
-    max-width: 1158px;
     padding: 100px 0;
 }
 
@@ -510,6 +507,7 @@ a {text-decoration: none;}
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 .link-web{
